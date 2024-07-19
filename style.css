@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' san-seerif;
+}
+
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   background-color: beige;
+}
+.calculator{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+input{
+    width: 315px;
+    height: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+    background-color: white;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    font-style: black;
+}
+button{
+    border: none;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.equal{
+    font-size: 35px;
+    color:green;
+}
+.ACC{
+    color:green;
+}
